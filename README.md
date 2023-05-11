@@ -5,12 +5,18 @@ O Apache Airflow é uma plataforma de código aberto para desenvolver, agendar e
 
 ### Instalação & Configuração
 
-
 A implantação do Airflow é feita através de um arquivo **docker-compose.yml** 
-que deve ser encontrado na raiz do projeto. É pré-requisito ter [docker](https://docs.docker.com/get-docker/) instalado.
+que deve ser encontrado na raiz do projeto. 
 
+### Pré-requisito:
+- [Docker](https://docs.docker.com/get-docker/) 
+- [Git](https://git-scm.com/downloads)
 
-**1 -** Crie um arquivo **.env** no diretório raiz do projeto como o exemplo abaixo :
+**1 -** Clone o repositório do projeto :
+ 
+        git clone --recurse-submodules --remote-submodules https://github.com/vitorlima-dev/airflow.git
+
+**2 -** Crie um arquivo **.env** no diretório raiz do projeto como o exemplo abaixo :
 
         # Airflow
         AIRFLOW_IMAGE_NAME=2.6.0
@@ -24,15 +30,15 @@ que deve ser encontrado na raiz do projeto. É pré-requisito ter [docker](https
         POSTGRES_PASSWORD=airflow    
 
 
-**2 -** Se for a primeira vez que vai provisionar o ambiente do airflow use :
+**3 -** Se for a primeira vez que vai provisionar o ambiente do airflow use :
 
     docker-compose --env-file .env up airflow-init
 
-**3 -** Finalmente inicie os serviços :
+**4 -** Finalmente inicie os serviços :
 
     docker-compose --env-file .env up
 
-**4 -** Acesse o airflow-web em [localhost:8080](http://localhost:8080)
+**5 -** Acesse o airflow-web em [localhost:8080](http://localhost:8080)
 
 ### Estrutura de diretórios do projeto
 

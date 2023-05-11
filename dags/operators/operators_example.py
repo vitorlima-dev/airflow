@@ -1,1 +1,0 @@
-print("operator_example")

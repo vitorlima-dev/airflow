@@ -59,6 +59,7 @@ que deve ser encontrado na raiz do projeto.
             └───dataset_2023-05-09
 
 
-|  |  |  |
-| :------: | :----: | ------: |
-| ![Docker](https://img.shields.io/badge/Docker-21209C?style=for-the-badge&logo=docker&logoColor=white)  |   ![Python](https://img.shields.io/badge/Python-23120B?style=for-the-badge&logo=python&logoColor=F1F1F1) | ![Airflow](https://img.shields.io/badge/Airflow-purple?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)
+
+![Docker](https://img.shields.io/badge/Docker-21209C?style=for-the-badge&logo=docker&logoColor=white) 
+![Python](https://img.shields.io/badge/Python-23120B?style=for-the-badge&logo=python&logoColor=F1F1F1)
+![Airflow](https://img.shields.io/badge/Airflow-purple?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)

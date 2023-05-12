@@ -63,3 +63,4 @@ que deve ser encontrado na raiz do projeto.
 ![Docker](https://img.shields.io/badge/Docker-21209C?style=for-the-badge&logo=docker&logoColor=white) 
 ![Python](https://img.shields.io/badge/Python-23120B?style=for-the-badge&logo=python&logoColor=F1F1F1)
 ![Airflow](https://img.shields.io/badge/Airflow-purple?style=for-the-badge&logo=Apache%20Airflow&logoColor=white)
+![postgres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)

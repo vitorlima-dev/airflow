@@ -23,6 +23,7 @@ que deve ser encontrado na raiz do projeto.
         AIRFLOW_UID=1000
         _AIRFLOW_WWW_USER_USERNAME=airflow
         _AIRFLOW_WWW_USER_PASSWORD=airflow
+        FERNET_KEY=airflow
 
         # Postgres
         POSTGRES_DB=airflow

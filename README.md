@@ -26,9 +26,9 @@ que deve ser encontrado na raiz do projeto.
         FERNET_KEY=airflow
 
         # Postgres
-        POSTGRES_DB=airflow
-        POSTGRES_USER=airflow
-        POSTGRES_PASSWORD=airflow    
+        _POSTGRES_DB=airflow
+        _POSTGRES_USER=airflow
+        _POSTGRES_PASSWORD=airflow    
 
 
 **3 -** Se for a primeira vez que vai provisionar o ambiente do airflow use :

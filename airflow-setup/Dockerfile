@@ -4,7 +4,7 @@ COPY requirements.txt /
 
 USER root
 
-RUN mkdir -p /mnt/datalake && chown airflow:root /mnt/datalake
+RUN mkdir -p /mnt/datatemp && chown airflow:root /mnt/datatemp
 
 USER airflow
 

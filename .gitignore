@@ -1,1 +1,4 @@
 .env
+datatemp
+airflow-setup/logs
+airflow-setup/plugins

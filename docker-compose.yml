@@ -78,7 +78,7 @@ x-airflow-common:
     - ./dags:/opt/airflow/dags
     - ./airflow-setup/logs:/opt/airflow/logs
     - ./airflow-setup/plugins:/opt/airflow/plugins
-    - ./datalake:/mnt/datalake
+    - ./datatemp:/mnt/datatemp
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
